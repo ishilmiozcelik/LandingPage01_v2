@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+    .container{
+        width: 65%;
+        position: relative; /* Create a positioning context */
+  }
+  .nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .btn_job{
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+    padding: 3px 25px 3px 25px;
+    
+    }
+
+.mainelements{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+hr{
+    margin: 0px;
+    border: 1px solid black;
+
+}
